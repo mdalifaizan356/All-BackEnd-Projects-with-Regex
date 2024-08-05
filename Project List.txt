@@ -1,0 +1,48 @@
+Express Js Project List
+
+1. Creating a Basic Server
+    Objective: Set up a simple Express server that responds with "Hello World" when accessed.
+    Steps: 
+        Install Express.Js
+        Create a basic server 
+        Set up a route that responds with "Hello World"
+
+2. Serving JSON Data 
+    Objective: Serve a JSON file through a specific route.
+    Steps:
+        Create a JSON file with sample data
+        Set up a route to serve this JSON file when accessed.
+
+3. Serving Static HTML Pages
+    Objective: Serve a static HTML page from an Express server.
+    Steps:
+        Create a simple HTML page.
+        Set up Express to serve this HTML page on a specific route.
+            1. Button click
+            2. Stopwatch
+            3. Calculator
+            4. Digital clock
+            5. To do List
+            6. Weather Card
+            7. Profile Card
+            8. Portfolio
+            9. Bulb toggle
+
+4. Simple contact Form
+    Objective: Serve a HTML page with a contact form and log form data to the console.
+    Steps:
+        Create a HTML page with a contact form.
+        Set up a POST route to handle form submission and log data.
+        
+
+5. Basic Routing
+    Objective: Set up multiple routes (eg. Home About Contact) and serve different for each route
+    Steps:
+        Create HTML files for each route.
+        Set up routes in express to serve the HTML files.
+
+
+
+imp commands
+npm init
+npm i mongoose express colors dotenv nodemon morgan
