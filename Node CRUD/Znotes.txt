@@ -1,0 +1,76 @@
+cors use to connect frontend to backend.
+
+
+
+press.json() vs express.json.stringify()?
+express.urlencoded ?
+request kis kis me aati he (paramps, body, row,)?
+form-data kab use karte he?
+
+
+server=> router => controller => model
+server me route import hoga, route me controller import hoga, controller me model import hoga.
+Is trah sabse pehle server.js file run hogi. fir route chalega fir controller chalega fir model chalega.
+
+__v:0   version code in mongodb object
+_id : unique id generate by mongoDB for every document
+
+
+http
+https
+
+react=>axios
+javascript => fetch
+
+http:localhost:3000/user/add
+post=> raw, form-data
+
+no sql :- db.databseName.insertOne{}
+          db.databseName.insertMany{{},{},{}}
+
+sql :- insert into tableName('name') value ('value')
+create 
+bulkcreate
+
+
+
+url me / k baad agar id hoti he to usko params bolte he.
+url me /?  k baad agar id hoti he to usko query bolte he.
+
+
+get:- get method me body nahi jati he. or na hi data form-data ki help se jata he.
+post: post method me data body or form-data se jata he.
+
+get 
+    sql 
+        select * from users where user_id = 535353
+        findOne, findAll 
+
+    no sql
+        find, findOne
+
+put, patch
+    update data
+    data body, form-data with id
+
+    no sql
+        db.user.updateOne({query, projaction, options})
+
+    sql
+        update table_name set data = "update data" where user_id = 535353
+
+delete
+    delete me data ko query, params or body teeno me bhej sakte he.
+    it's 2 types 
+        soft delete: deactive kar deta he data show nahi hota.
+            status:{
+                default:inactive
+            }
+
+        herd delete: data ko finally distroy karta he.
+
+    drop: table k sath data bhi delete ho jata he.
+    turncate: table delete nahi hoti sirf data delete ho jata.
+
+Head in postman:
+    singup karte hi login kiya to token generate karwaya. token k sath kaam karna he to head ka use karte he.

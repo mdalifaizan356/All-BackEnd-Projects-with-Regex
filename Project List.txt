@@ -18,7 +18,7 @@ Express Js Project List
     Steps:
         Create a simple HTML page.
         Set up Express to serve this HTML page on a specific route.
-            1. Button click
+            1. Button click (counter)
             2. Stopwatch
             3. Calculator
             4. Digital clock
